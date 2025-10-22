@@ -1,0 +1,8 @@
+### TEST AI TUTOR
+POST http://localhost:8080/api/ai/tutor
+Content-Type: application/json
+
+{
+  "message": "Explain what AI is in simple terms",
+  "context": "technology"
+}
